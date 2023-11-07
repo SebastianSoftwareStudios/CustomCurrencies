@@ -1,0 +1,7 @@
+name: CustomCurrencies
+version: '${project.version}'
+main: com.sebastiangrupo.studios.customcurrencies.CustomCurrencies
+api-version: 1.20
+depend: [ VaultAPI ]
+authors: [ SebastianSoftwareStudios, Sebasorova ]
+website: https://studios.sebastiangrupo.com

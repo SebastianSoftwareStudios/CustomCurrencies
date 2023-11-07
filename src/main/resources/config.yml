@@ -1,0 +1,19 @@
+# --------------------------------------------------------#
+#                    CUSTOM CURRENCIES                    #
+#                          v0.1                           #
+#              by Sebastian Software Studios              #
+#---------------------------------------------------------#
+
+version: 0.1 #Don't touch this
+
+currencies:
+  EXC: #ISO name of the currency
+    name: "ExampleCoin" # Display name of the currency
+    price: 1.0 # Initial price of the currency
+    fluctuation: true # Enable price fluctuation
+    priceFluctuationRange: # Range for price fluctuations (whole values from 0 to 100)
+      down: 50 # Minimum fluctuation (0% - 100%)
+      up: 50 # Maximum fluctuation (0% - 100%)
+    fluctuationTime: 10000 # Time between price fluctuations (in milliseconds)
+    save: true # Should the plugin save the value of the currency once the server shuts down?
+    enabled: true # Enable or disable this currency
